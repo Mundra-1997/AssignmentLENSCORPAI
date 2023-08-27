@@ -1,0 +1,53 @@
+.main-product{
+    display: flex;
+    flex-direction: column;
+    color: #5452fe;
+   margin-bottom: 8rem;
+}
+.main-product h1{
+    
+        font-size: 3rem;
+        text-align: left;
+        margin-left: 4rem;
+       
+}
+.under-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    margin-top: -1rem;
+}
+.under-div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.under-div div h1{
+    color: #7000ce;
+}
+.verti{
+    height: 60vh;
+    width: 2px;
+background-color:#7000ce;;
+}
+.underline{
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+.under-div div p{
+    text-align: center;
+    white-space: nowrap;
+    margin-top: -4rem;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.justi{
+    text-align: center;
+    width: 20vw;
+    line-height: 1rem;
+}

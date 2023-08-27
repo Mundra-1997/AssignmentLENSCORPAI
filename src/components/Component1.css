@@ -1,0 +1,53 @@
+
+
+
+.component1-main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  
+    color: #5452fe;
+  
+
+}
+.component1-sub-div{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    
+}
+
+.component1-sub-div div h2{
+
+   font-size: 3rem;
+   white-space: nowrap;
+   
+}
+
+.component1-sub-div  ul{
+    
+   font-size: 1.5rem;
+   line-height: 2rem;
+        
+}
+
+.component1-sub-div h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.image-container {
+    overflow: hidden;
+    
+   
+}
+.zoom-image{
+   margin-top: 10rem;
+   margin-left: 2rem;
+   height: 100vh;
+}
+
